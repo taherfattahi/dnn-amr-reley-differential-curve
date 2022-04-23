@@ -41,7 +41,7 @@ This running for xilinx Zynq-7020 (ARM-based computers):
   LD_LIBRARY_PATH=./arm ./main
 ```
 
-#### Differential Characteristic in AMPro software
+#### Differential Characteristic in the AMPro software
 ![Graph](https://github.com/taherfattahi/dnn-amr-reley-differential-curve/blob/master/images/AMR_Relay_Differential_Curve.png)
 
 #### Graph of the Deep Neural Network
