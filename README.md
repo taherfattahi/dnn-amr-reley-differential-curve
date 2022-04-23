@@ -10,7 +10,7 @@ A novel approach to the implementation differential protection scheme by using a
   - Converting the <b>Tensorflow</b> model to tflite for running on Embedded Board ARM Architecture
   - Using <b>Golang</b> TFLite to be able to easily run tflite model
   - Running on <a href="https://www.xilinx.com/products/silicon-devices/soc/zynq-7000.html" target="_blank"><b>Xilinx Zynq-7020</b></a> Embedded Board
-  - Usable via docker file
+  - Usable via <b>docker</b> file
   
 ## Installation
 
