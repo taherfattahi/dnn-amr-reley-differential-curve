@@ -6,10 +6,11 @@ Implementing AMR Reley Differential Curve with Deep Neural Network.
 A novel approach to the implementation differential protection scheme by using a <b>Deep Neural Network</b> Dataset has been obtained from Differential Characteristic plane in the <b><a href="https://vebko.org/en/" target="_blank">Vebko</a> AMPro</b> software.
 
 ## Features
-  - using <b>Python Tensorflow</b> to build a Deep Neural Network model
-  - converting the <b>Tensorflow</b> model to tflite for running on Embedded Board ARM Architecture
-  - using <b>Golang</b> TFLite to be able to easily run tflite model
-  - running on <a href="https://www.xilinx.com/products/silicon-devices/soc/zynq-7000.html" target="_blank"><b>Xilinx Zynq-7020</b></a> Embedded Board
+  - Using <b>Python Tensorflow</b> to build a Deep Neural Network model
+  - Converting the <b>Tensorflow</b> model to tflite for running on Embedded Board ARM Architecture
+  - Using <b>Golang</b> TFLite to be able to easily run tflite model
+  - Running on <a href="https://www.xilinx.com/products/silicon-devices/soc/zynq-7000.html" target="_blank"><b>Xilinx Zynq-7020</b></a> Embedded Board
+  - Usable via docker file
   
 ## Installation
 
@@ -41,6 +42,25 @@ This running for xilinx Zynq-7020 (ARM-based computers):
   export LD_LIBRARY_PATH=./arm
   
   ./main
+```
+
+## Running with Docker
+
+First of all, clone and the repo then run
+```bash
+  docker build -t dnn .
+```
+
+After pulling and building the image, You can get the result like this
+
+```bash
+  docker run --rm -t amr ./main
+```
+
+Or you can go to the container for running it manually like this
+
+```bash
+  docker run -it amr
 ```
 
 #### Differential Characteristic in the AMPro software
