@@ -1,11 +1,12 @@
 
 # Machine Learning AMR Reley Differential Curve
 
-Implementing AMR Reley Differential Curve with Deep Neural Network
+Implementing AMR Reley Differential Curve with Deep Neural Network.
 
+A novel approch to implementation differential protection scheme by using <b>Deep Neural Network</b> Dataset has been obtained from Differential Characteristic plane in the <b>AMPro software</b>
 
 ## Features
-  - using <b>Python Tensorflow</b> for build Deep Neural Network model
+  - using <b>Python Tensorflow</b> to build Deep Neural Network model
   - converting <b>Tensorflow</b> model to tflite for running on Embedded Board ARM Architecture
   - using <b>Golang</b> TFLite to be able to easily run tflite model
   - running on <a href="https://www.xilinx.com/products/silicon-devices/soc/zynq-7000.html" target="_blank"><b>xilinx Zynq-7020</b></a> Embedded Board
@@ -38,7 +39,7 @@ This running for xilinx Zynq-7020 (ARM-based computers):
   LD_LIBRARY_PATH=~/arm ./main
 ```
 
-#### AMR Relay Differential Curve From AMPro software
+#### Differential Characteristic in AMPro software
 ![Graph](https://github.com/taherfattahi/dnn-amr-reley-differential-curve/blob/master/images/AMR_Relay_Differential_Curve.png)
 
 #### Graph of the Deep Neural Network
