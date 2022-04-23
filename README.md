@@ -39,6 +39,7 @@ This running for xilinx Zynq-7020 (ARM-based computers):
 
 ```bash
   export LD_LIBRARY_PATH=./arm
+  
   ./main
 ```
 
