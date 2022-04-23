@@ -22,6 +22,8 @@ For Linux/MacOs amd64:
 For xilinx Zynq-7020 (ARM-based computers):
 
 ```bash
+  sudo apt-get install gcc-arm-linux-gnueabihf
+  
   CGO_ENABLED=1 GOOS=linux GOARCH=arm CC=arm-linux-gnueabihf-gcc go build -o main
 ```
 
