@@ -3,13 +3,13 @@
 
 Implementing AMR Reley Differential Curve with Deep Neural Network.
 
-A novel approch to implementation differential protection scheme by using <b>Deep Neural Network</b> Dataset has been obtained from Differential Characteristic plane in the <b><a href="https://vebko.org/en/" target="_blank">Vebko</a> AMPro</b> software.
+A novel approach to the implementation differential protection scheme by using <b>Deep Neural Network</b> Dataset has been obtained from Differential Characteristic plane in the <b><a href="https://vebko.org/en/" target="_blank">Vebko</a> AMPro</b> software.
 
 ## Features
-  - using <b>Python Tensorflow</b> to build Deep Neural Network model
-  - converting <b>Tensorflow</b> model to tflite for running on Embedded Board ARM Architecture
+  - using <b>Python Tensorflow</b> to build a Deep Neural Network model
+  - converting the <b>Tensorflow</b> model to tflite for running on Embedded Board ARM Architecture
   - using <b>Golang</b> TFLite to be able to easily run tflite model
-  - running on <a href="https://www.xilinx.com/products/silicon-devices/soc/zynq-7000.html" target="_blank"><b>xilinx Zynq-7020</b></a> Embedded Board
+  - running on <a href="https://www.xilinx.com/products/silicon-devices/soc/zynq-7000.html" target="_blank"><b>Xilinx Zynq-7020</b></a> Embedded Board
   
 ## Installation
 
