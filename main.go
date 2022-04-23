@@ -86,23 +86,13 @@ func (gan *TFGan) free() {
 
 func main() {
 
-	/*
-		run:
-			go run main
-	*/
-	/*
-	    cross compile for xilix 7020 armhf:
-	    	CGO_ENABLED=1 GOOS=linux GOARCH=arm CC=arm-linux-gnueabihf-gcc go build -o main
-	    run on arm:
-	   		LD_LIBRARY_PATH=~/arm ./main
-	*/
-
 	gan := makeTFGan("model/tfliteModel.tflite")
 	if gan == nil {
 		fmt.Printf("failed \n")
 		return
 	}
 
+	// input your data
 	inputData := []float32{2.55, 3}
 
 	ptr1 := C.TfLiteTensorData(gan.input)
