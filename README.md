@@ -38,7 +38,8 @@ This running for ubuntu/MacOs amd64:
 This running for xilinx Zynq-7020 (ARM-based computers):
 
 ```bash
-  LD_LIBRARY_PATH=./arm ./main
+  export LD_LIBRARY_PATH=./arm
+  ./main
 ```
 
 #### Differential Characteristic in the AMPro software
