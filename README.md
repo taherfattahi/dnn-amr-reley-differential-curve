@@ -3,7 +3,7 @@
 
 Implementing AMR Reley Differential Curve with Deep Neural Network.
 
-A novel approch to implementation differential protection scheme by using <b>Deep Neural Network</b> Dataset has been obtained from Differential Characteristic plane in the <b><a href="https://vebko.org/en/">Vebko</a> AMPro software</b>
+A novel approch to implementation differential protection scheme by using <b>Deep Neural Network</b> Dataset has been obtained from Differential Characteristic plane in the <b><a href="https://vebko.org/en/">Vebko</a> AMPro</b> software
 
 ## Features
   - using <b>Python Tensorflow</b> to build Deep Neural Network model
