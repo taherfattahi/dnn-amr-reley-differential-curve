@@ -8,7 +8,7 @@ Implementing AMR Reley Differential Curve with Deep Neural Network
   - using <b>Python Tensorflow</b> for build Deep Neural Network model
   - converting <b>Tensorflow</b> model to tflite for running on Embedded Board ARM Architecture
   - using <b>Golang</b> TFLite to be able to easily run tflite model
-  - running on <b>xilinx Zynq-7020</b> Embedded Board
+  - running on <a href="https://www.xilinx.com/products/silicon-devices/soc/zynq-7000.html" target="_blank"><b>xilinx Zynq-7020</b></a> Embedded Board
   
 ## Installation
 
