@@ -4,9 +4,15 @@
 Implementing AMR Reley Differential Curve with Deep Neural Network
 
 
-## Screenshots
+### Features
+  - using <b>Python Tensorflow</b> for build depp neural network model
+  - converting <b>Tensorflow</b> model to tflite for running on Embedded Board ARM Architecture
+  - using <b>Golang</b> TFLite to be able to easily run tflite model
+  - running on <b>xilinx Zynq-7020</b> Embedded Board
+  
+#### Graph of the Deep Neural Network
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Graph](https://github.com/taherfattahi/dnn-amr-reley-differential-curve/blob/master/images/graph.png)
 
 
 
