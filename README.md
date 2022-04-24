@@ -80,7 +80,7 @@ Note: If you had issue and got `standard_init_linux.go:211: exec user process ca
 
 ## Collaborators
 
-- [Nima Akbarzade](https://www.github.com/iw4p) - Dr.Mohammad Parpaei - Sajad Ansari 
+- [Nima Akbarzade](https://www.github.com/iw4p) - Dr.Mohammad Parpaei - [Dr.Mohammad Haji Seyed Javadi](https://www.github.com/EHUser) - Sajad Ansari 
 
 
 ## License
