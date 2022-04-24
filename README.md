@@ -76,7 +76,8 @@ Or you can go to the container for running it manually like this
 #### Model Loss Plot
 ![Graph](https://github.com/taherfattahi/dnn-amr-reley-differential-curve/blob/master/images/model_loss_plot.png)
 
-Note: If you had issue and got `standard_init_linux.go:211: exec user process caused "exec format error` error, try [this solution](https://www.stereolabs.com/docs/docker/building-arm-container-on-x86/).
+## Note:
+ If you had issue and got `standard_init_linux.go:211: exec user process caused "exec format error` error, try [this solution](https://www.stereolabs.com/docs/docker/building-arm-container-on-x86/).
 
 ## Collaborators
 
