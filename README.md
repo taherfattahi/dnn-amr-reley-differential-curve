@@ -1,7 +1,7 @@
 
 # Machine Learning AMR Reley Differential Curve
 
-Implementing AMR Reley Differential Curve with Deep Neural Network.
+Implementing Deep Neural Network Multi Classification Algorithm for AMR Reley Differential Curve.
 
 A novel approach to the implementation differential protection scheme by using a <b>Deep Neural Network</b> Dataset has been obtained from Differential Characteristic plane in the <b><a href="https://vebko.org/en/" target="_blank">Vebko</a> AMPro</b> software.
 
