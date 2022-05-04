@@ -49,6 +49,8 @@ export CGO_CFLAGS=-I$HOME/workspace/tensorflow/
 For Linux/MacOs amd64:
 
 ```bash
+  export CGO_LDFLAGS=-L$HOME/workspace/tensorflow/bazel-bin/tensorflow/lite/c
+
   go build main.go
 ```
 
